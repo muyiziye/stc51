@@ -1,5 +1,5 @@
 all:main.bin
-	-rm *.lk *.map *.rel *.sym *.asm *.ihx *.lst *.mem *.rst *.hex
+	rm *.lk *.map *.rel *.sym *.asm *.ihx *.lst *.mem *.rst *.hex
 
 main.bin:main.hex
 	hex2bin main.hex
